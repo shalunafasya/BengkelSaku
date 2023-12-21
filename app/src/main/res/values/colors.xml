@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkgreen">#3E7003</color>
+    <color name="green">#BFEF86</color>
+    <color name="navy">#2D3D4F</color>
+    <color name="abu1">#c4c4c4</color>
+    <color name="abu2">#E5E5E5</color>
+    <color name="biru1">#288CE8</color>
+    <color name="biru2">#68AEEF</color>
+    <color name="biru3">#D2E7FA</color>
+</resources>

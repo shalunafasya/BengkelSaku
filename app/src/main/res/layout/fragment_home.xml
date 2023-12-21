@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:paddingTop="30dp"
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/logo"/>
+
+        <ImageView
+            android:layout_width="199dp"
+            android:layout_height="199dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-73dp"
+            android:layout_marginTop="-9dp"
+            android:paddingTop="30dp"
+            app:srcCompat="@drawable/ellipse3" />
+
+        <ImageView
+            android:layout_width="199dp"
+            android:layout_height="199dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-66dp"
+            android:layout_marginEnd="-88dp"
+            app:srcCompat="@drawable/ellipse1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lingkaran"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@id/imageView"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            app:cardBackgroundColor="@color/biru2"
+            app:cardCornerRadius="150dp">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="355dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="40dp"
+                    android:text="@string/servis_dalam"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="25dp"
+                    android:text="19 hari"
+                    android:textColor="@color/white"
+                    android:textSize="75dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btnCatat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Catat Tanggal Servis"
+                    android:textColor="@color/biru1"
+                    android:backgroundTint="@color/white"></Button>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnConsul"
+            android:layout_width="352dp"
+            android:layout_height="68dp"
+            android:layout_below="@+id/lingkaran"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="27dp"
+            android:backgroundTint="@color/biru1"
+            android:text="Konsultasikan Motor Anda"
+            android:contentDescription="@string/desc_btn_consul"
+            />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

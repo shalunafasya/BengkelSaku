@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BengkelSaku</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Jangan tunggu motor mogok, Bengkel Saku siap membantu anda menangani masalah motor anda</string>
+    <string name="title_welcome_page">Selamat datang di Bengkel Saku!</string>
+    <string name="title_signup_page">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Login</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">p</string>
+    <string name="greeting">%1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="foto">foto</string>
+    <string name="setError">Password tidak boleh kurang dari 8 karakter</string>
+    <string name="erorPass">Password cant less than 8 characters</string>
+    <string name="erorEmail">Email must contain user@email.com</string>
+    <string name="add">add\n</string>
+    <string name="servis_dalam">Servis Kembali Dalam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_btn_consul">Tombol Konsultasi</string>
+
+</resources>
